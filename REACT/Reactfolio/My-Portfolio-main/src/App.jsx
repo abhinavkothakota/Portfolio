@@ -28,7 +28,7 @@ function App() {
       {loading ? (
         <div className="loader">
           <CircleLoader
-            color={"white"}
+            color={"#011c38"}
             loading={true}
             size={100}
             aria-label="Loading Spinner"

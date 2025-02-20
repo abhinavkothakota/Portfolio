@@ -230,8 +230,8 @@ button:hover {
   letter-spacing: 0.6px;
 }
 .Avatar {
-  height: 650px;
-  width: 500px;
+  height: 350px;
+  width: 400px;
   mix-blend-mode: screen;
 }
 
@@ -405,7 +405,6 @@ button:hover {
 
 .projectPhoto {
   display: block;
-  height: 150px;
   width: 100%;
   margin: 0px 0px;
 }
