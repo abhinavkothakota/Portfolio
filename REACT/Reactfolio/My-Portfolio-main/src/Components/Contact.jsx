@@ -19,7 +19,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted!");
+
+    // Construct the mailto URL with form data
+    const mailtoUrl = `mailto:2003abhinavk@gmail.com?subject=Contact from ${formData.name}&body=From: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+
+    // Open the email client
+    window.location.href = mailtoUrl;
+
     setSubmitted(true);
   };
 
@@ -62,13 +68,9 @@ const Contact = () => {
               required
             />
           </div>
-          <a type="submit" href="mailto:2003abhinavk@gmail.com">
-            <button className="submit-btn">
-              {" "}
-              Submit
-              <FaCheck> </FaCheck>{" "}
-            </button>
-          </a>
+          <button type="submit" className="submit-btn">
+            Submit <FaCheck />
+          </button>
         </form>
       )}
     </div>
