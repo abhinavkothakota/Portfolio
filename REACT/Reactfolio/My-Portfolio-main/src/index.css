@@ -263,8 +263,8 @@ button:hover {
     display: inline-block;
   }
   .Avatar{
-    height: 310px;
-    width: 310px;
+    height: 350px;
+    width: 400px;
   }
 }
 
@@ -284,8 +284,28 @@ button:hover {
     font-size: 24px;
   }
   .Avatar{
-    height: 300px;
-    width: 300;
+    height: 250px;
+    width: 310px;
+  }
+}
+@media (max-width: 400px) {
+  .HomePage {
+    min-height: 70vh;
+  }
+  .NavbarLinks {
+    inset: 0 0 0 30%;
+  }
+  .HomeText h1 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .TypeEffect {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .Avatar{
+    height: 210px;
+    width: 210px;
   }
 }
 
