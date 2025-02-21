@@ -12,7 +12,7 @@ const Home = () => {
         <div className="HomeText">
           <h1>Hello there!</h1>
           <h1>
-            I'M <b>Kothakota Abhinav</b>
+            I'm <b>Kothakota Abhinav</b>
           </h1>
           <Type />
           <Link to="/About">
@@ -28,9 +28,9 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        <Tilt>
+        
           <img className="Avatar" src={Avatar} alt="" />
-        </Tilt>
+
       </div>
     </div>
   );

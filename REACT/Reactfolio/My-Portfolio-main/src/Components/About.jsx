@@ -12,7 +12,7 @@ const About = () => {
           <p className="P">
             Hi, my name is <b>Kothakota Abhinav</b> and I am from Hyderabad,
             India. I'm a <b>Frontend web developer</b> and a Final year
-            university student pursuing <b>BE in Computer Science</b>. <br />
+            university student pursuing <b><br />BE in Computer Science</b>. <br />
             <br />
             I enjoy developing projects with aesthetically pleasing designs,
             incorporating my unique creative approach. You can explore some of my work in the projects section.
@@ -25,7 +25,7 @@ const About = () => {
             photography in my spare time.
           </p>
           <a href="https://drive.google.com/file/d/1NBQBWUGpuO2hDJjXji-hpYMLYCKHJVxp/view?usp=share_link" download className="resume-btn">
-            <button>
+            <button className="BTN">
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
           </a>
