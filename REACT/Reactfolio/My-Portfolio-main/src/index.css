@@ -344,6 +344,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 20px;
 }
 
 .BTN{
