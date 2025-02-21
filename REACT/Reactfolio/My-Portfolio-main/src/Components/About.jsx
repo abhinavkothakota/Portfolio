@@ -21,8 +21,8 @@ const About = () => {
             contribute and grow. Feel free to connect with me, links are in the
             footer.
             <br />
-            Apart from coding I love to play video games ,designs ,editing and do
-            photography in my spare time.
+            Besides coding, I enjoy playing video games, designing, editing, and
+            photography in my spare time
           </p>
           <a href="https://drive.google.com/file/d/1NBQBWUGpuO2hDJjXji-hpYMLYCKHJVxp/view?usp=share_link" download className="resume-btn">
             <button className="BTN">
