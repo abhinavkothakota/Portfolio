@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 #root {
@@ -34,22 +35,26 @@ b {
   align-items: center;
 }
 button {
-  font-size: 20px;
-  display: inline-flex;
+  font-size: 18px;
+  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 40%;
-  margin: 25px 3% 0;
+  justify-content: center;
+  width: 100%; /* Takes full width but constrained with max-width */
+  max-width: 300px; /* Prevents it from becoming too wide */
+  margin: 20px auto; /* Centers the button */
   padding: 10px;
+  text-align: center;
   border-radius: 5px;
   background-color: #9b6dff;
   color: #ffffff;
-  height: 50px;
+  height: auto; /* Adapts to content */
   cursor: pointer;
   text-decoration: none;
   border: 2px solid #9b6dff;
   transition: all 0.3s ease;
+  gap: 8px;
 }
+
 
 button:hover {
   background-color: transparent;
@@ -231,8 +236,10 @@ button:hover {
   letter-spacing: 0.6px;
 }
 .Avatar {
+  padding: 30px;
   height: 550px;
-  width: 550px;
+  width: 100%;
+  max-width: 550px;
   mix-blend-mode: screen;
 }
 
@@ -246,6 +253,10 @@ button:hover {
   .HomeText {
     text-align: left;
     display: inline-block;
+  }
+  .Avatar{
+    height: 310px;
+    width: auto;
   }
 }
 
@@ -264,6 +275,10 @@ button:hover {
     font-weight: 500;
     font-size: 24px;
   }
+  .Avatar{
+    height: 300px;
+    width: auto;
+  }
 }
 
 /* ABOUT */
@@ -271,7 +286,6 @@ button:hover {
 .AboutPage {
   display: flex;
   justify-content: space-evenly;
-  min-height: 80vh;
   margin-top: 100px;
   align-items: center;
   padding: 25px;
@@ -294,6 +308,9 @@ button:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+.P{
+  padding-bottom: 10px;
+}
 
 @media (max-width: 900px) {
   .AboutPage {
@@ -312,11 +329,6 @@ button:hover {
   .AboutTextHeading {
     font-size: 26px;
   }
-
-  .Avatar {
-    width: 200px;
-    margin-bottom: 75px;
-  }
 }
 
 /* Skills section */
@@ -324,7 +336,6 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 50px 10%;
 }
 
 .SkillBox {
@@ -336,7 +347,7 @@ button:hover {
   margin: 0px 25px 25px 0px;
   border: 3px solid var(--color);
   font-size: 64px;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.5s;
 }
 .SkillBox:hover {
@@ -347,7 +358,7 @@ button:hover {
 
 .SkillsHeading {
   text-align: center;
-  margin: 50px 10px;
+  margin: 40px;
   font-size: 36px;
   letter-spacing: 0.6px;
 }
@@ -355,10 +366,6 @@ button:hover {
 @media (max-width: 500px) {
   .AboutText {
     font-size: 16px;
-  }
-  .Avatar {
-    width: 200px;
-    margin-bottom: 25px;
   }
 
   .SkillsHeading {
@@ -486,7 +493,10 @@ footer h4 {
   width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
 }
 
 .form-group textarea {

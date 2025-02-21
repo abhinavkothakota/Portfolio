@@ -9,7 +9,7 @@ const About = () => {
           <h1 className="AboutTextHeading">
             Get to <b>know</b> me!
           </h1>
-          <p>
+          <p className="P">
             Hi, my name is <b>Kothakota Abhinav</b> and I am from Hyderabad,
             India. I'm a <b>Frontend web developer</b> and a Final year
             university student pursuing <b>BE in Computer Science</b>. <br />
@@ -21,7 +21,7 @@ const About = () => {
             contribute and grow. Feel free to connect with me, links are in the
             footer.
             <br />
-            Apart from coding I love to play video games ,designs ,editing do
+            Apart from coding I love to play video games ,designs ,editing and do
             photography in my spare time.
           </p>
           <a href="https://drive.google.com/file/d/1NBQBWUGpuO2hDJjXji-hpYMLYCKHJVxp/view?usp=share_link" download className="resume-btn">
