@@ -24,7 +24,7 @@ const About = () => {
             Besides coding, I enjoy playing video games, designing, editing, and
             photography in my spare time
           </p>
-          <a href="https://drive.google.com/file/d/1DlJgElLJ5CeTwBdHDzyOF76wR018GIs2/view?usp=share_link" download className="resume-btn">
+          <a href="https://drive.google.com/file/d/1DKwkJdh8nFkG9BR8pXuUwHELZ0gPUkNn/view?usp=sharing" download className="resume-btn">
             <button className="BTN">
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
