@@ -7,10 +7,10 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
     CarPointDesc:
       "Designed and developed a Vehicle Service Application using modern web technologies. The platform enables users to schedule and manage vehicle maintenance, while service providers can efficiently handle appointments and track inventory.",
-    CarPointGithub: "https://github.com/abhinavkothakota/VehicleServiceManagement-CARPOINT",
+    CarPointGithub: "https://ak-carpoint.vercel.app",
     FoodAppDesc:
       "Designed a mobile food app in Figma, focusing on UI/UX to ensure a seamless experience for browsing menus, placing orders, and managing deliveries.",
-    FoodAppFigma: "https://www.figma.com/design/bTkxc3r2SOpZSpISxn3mQQ/TEENU2?node-id=0-1&t=WAvaf7g6faZE8BG3-1",
+    FoodAppFigma: "https://www.figma.com/proto/bTkxc3r2SOpZSpISxn3mQQ/TEENU2?page-id=0%3A1&node-id=79-1734&p=f&viewport=-654%2C359%2C0.6&t=TbsdZ2pHull7cFYt-1&scaling=scale-down&content-scaling=fixed",
 
   };
 
