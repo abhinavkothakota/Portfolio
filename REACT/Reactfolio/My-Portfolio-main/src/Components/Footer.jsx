@@ -18,7 +18,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/photo__abhi__graphy" target="_blank" title="Photography Instagram">
           <FaInstagram />
         </a>
-        <a href="www.linkedin.com/in/abhinavkothakota" target="_blank" title="LinkedIn">
+        <a href="www.linkedin.com/in/abhinavkothakota/" target="_blank" title="LinkedIn">
           <FaLinkedin />
         </a>
         <a href="mailto:2003abhinavk@gmail.com" target="_blank">
